@@ -1,0 +1,22 @@
+{
+  "name": "sessionsecret",
+  "version": "1",
+  "description": "Generates a new session secret using Node.js crypto module and saves it to a file named 'secret.txt'. If the file already exists, it will be deleted and replaced with the new secret. The script can be used to create a new secret for a session cookie in an ExpressJS application.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "generate": "node index.js"
+  },
+  "keywords": [
+    "Node.js",
+    "crypto",
+    "express",
+    "session",
+    "secret"
+  ],
+  "author": "Susurmi",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}
